@@ -8,6 +8,7 @@ Este script fue desarrollado para detectar movimientos del mercado de criptomone
 - Descargar y modificar el Archivo, lo puedes modificar con sublime text, o cualquier otro editor de codigo bajo lso parametros que tu quieras.
 
 ```python
+VOLUMEN = 100000000 # Valoumen minimo a filtrar
 VARIACION = 5  # Variacion en los ultimos 30 minutos en porcentaje
 VARIACION_100 = 7  # Variacion en los ultimos 30 minutos en porcentaje si tiene menos de 100k de volumen
 VARIACION_FAST = 2  # Variacion en los ultimos 2 minutos en porcentaje
