@@ -15,5 +15,8 @@ VARIACION_FAST = 2  # Variacion en los ultimos 2 minutos en porcentaje
 ```
 
 - Antes de ejecutar el Script deberas instalar la libreria de Python de Binance `pip install -r requirements.txt`
-- Una vez guardado el archivo debes ejecutarlo desde una terminal de windows o de tu sistema operativo que uses con el siguiente comando.
-  `python main.py`
+- Una vez guardado el archivo debes ejecutarlo desde una terminal con el siguiente comando:
+- Binance
+  `python main_binance.py`
+- Bybit
+  `python main_bybit.py`
