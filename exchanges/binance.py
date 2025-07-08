@@ -9,7 +9,7 @@ class BinanceAdapter(ExchangeAdapter):
         self.exchange = ccxt.binanceusdm({
             'enableRateLimit': True
         })
-        logger.info(self.exchange.name)
+        logger.info(f"Conectado a {self.exchange.name}")
 
     async def __aenter__(self):
         # Carga mercados una sola vez
